@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T19:14:31.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="ztm6MBLFZFT4C5amOx0S" type="github"><diagram id="Wk8CYTFuplVzRF4KS6Ps">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T21:49:17.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rDVPq8uam0mJcs5yLFq3" version="17.4.6" type="github">
+  <diagram id="Wk8CYTFuplVzRF4KS6Ps" name="Page-1">
+    <mxGraphModel dx="2434" dy="2353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cnExMDElmopR4B2y_THm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="-1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="-965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="-885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="-805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-1" value="Load Manager Container - refactor Apr 26, 2022" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-725" width="770" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-3" value="Load Overview" style="swimlane;" vertex="1" parent="cnExMDElmopR4B2y_THm-1">
+          <mxGeometry x="80" y="285" width="280" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-4" value="Route Load Details" style="swimlane;" vertex="1" parent="cnExMDElmopR4B2y_THm-1">
+          <mxGeometry x="460" y="230" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.061;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-5" target="cnExMDElmopR4B2y_THm-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="-1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-5" value="Authentication" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-8" value="Equipment" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-10" value="Transportation mode" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-12" value="Carrier Load" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-835" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
