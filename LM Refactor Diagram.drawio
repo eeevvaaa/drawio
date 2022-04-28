@@ -1,64 +1,208 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T21:49:17.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rDVPq8uam0mJcs5yLFq3" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T22:58:48.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BuK2bO4IVHM6PGWoxkxF" version="17.4.6" type="github">
   <diagram id="Wk8CYTFuplVzRF4KS6Ps" name="Page-1">
-    <mxGraphModel dx="2434" dy="2353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2194" dy="2353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cnExMDElmopR4B2y_THm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-5">
+        <mxCell id="cnExMDElmopR4B2y_THm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cnExMDElmopR4B2y_THm-5">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="-760" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="770" y="-1045" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-8">
+        <mxCell id="cnExMDElmopR4B2y_THm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cnExMDElmopR4B2y_THm-8">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="-760" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="770" y="-965" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-10">
+        <mxCell id="cnExMDElmopR4B2y_THm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cnExMDElmopR4B2y_THm-10">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="-760" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="770" y="-885" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-1" target="cnExMDElmopR4B2y_THm-12">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="cnExMDElmopR4B2y_THm-13" value="Query from filter&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cnExMDElmopR4B2y_THm-12">
+          <mxGeometry x="0.2055" relative="1" as="geometry">
+            <mxPoint x="770" y="-760" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="770" y="-805" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-1" value="Load Manager Container - refactor Apr 26, 2022" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-725" width="770" height="700" as="geometry" />
+        <mxCell id="cnExMDElmopR4B2y_THm-24" value="GET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnExMDElmopR4B2y_THm-13">
+          <mxGeometry x="-0.7688" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-3" value="Load Overview" style="swimlane;" vertex="1" parent="cnExMDElmopR4B2y_THm-1">
-          <mxGeometry x="80" y="285" width="280" height="285" as="geometry" />
-        </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-4" value="Route Load Details" style="swimlane;" vertex="1" parent="cnExMDElmopR4B2y_THm-1">
-          <mxGeometry x="460" y="230" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.061;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-5" target="cnExMDElmopR4B2y_THm-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="cnExMDElmopR4B2y_THm-19" value="Account type" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.054;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-5">
+          <mxGeometry x="-0.5183" relative="1" as="geometry">
+            <mxPoint x="81.57999999999993" y="-761.5699999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="87" y="-1045" />
+              <mxPoint x="82" y="-1045" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-5" value="Authentication" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="365" y="-1075" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-20" value="Equipment list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.054;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-8">
+          <mxGeometry x="-0.4444" relative="1" as="geometry">
+            <mxPoint x="81.57999999999993" y="-761.5699999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="82" y="-965" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-8" value="Equipment" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="365" y="-995" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.054;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="81.57999999999993" y="-761.5699999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="82" y="-885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-23" value="Mode list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnExMDElmopR4B2y_THm-21">
+          <mxGeometry x="-0.3837" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-10" value="Transportation mode" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="365" y="-915" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-22" value="Saved and awarded loads" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.054;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-12">
+          <mxGeometry x="-0.2035" relative="1" as="geometry">
+            <mxPoint x="81.57999999999993" y="-759.2149999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="82" y="-805" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-12" value="Carrier Load" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="365" y="-835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-64" value="Response from services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-48" target="cnExMDElmopR4B2y_THm-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-48" value="Load Manager Container - Refactor Apr 28, 2022" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-760" width="730" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-49" value="Account&lt;br&gt;Management" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cnExMDElmopR4B2y_THm-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="-425" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="360" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-51" value="GET&lt;br&gt;POST(user id)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnExMDElmopR4B2y_THm-50">
+          <mxGeometry x="-0.1853" y="-1" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-52" value="User&lt;br&gt;preferences" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-53" value="Filter and notification settings" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="cnExMDElmopR4B2y_THm-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="-425" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.057;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="-630.3699999999999" as="sourcePoint" />
+            <mxPoint x="49.950000000000045" y="-425" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="-630.37" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-55" value="email &amp;amp; phone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnExMDElmopR4B2y_THm-54">
+          <mxGeometry x="0.0161" y="2" relative="1" as="geometry">
+            <mxPoint y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-56" value="Load" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-58" target="cnExMDElmopR4B2y_THm-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="-320" />
+              <mxPoint x="330" y="-320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-58" value="Load Overview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-425" width="360" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-59" value="Load Data Card" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-60" value="Filter Bar" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.221;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-61" target="cnExMDElmopR4B2y_THm-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-69" value="notification&lt;br&gt;selections" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnExMDElmopR4B2y_THm-68">
+          <mxGeometry x="-0.1538" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-61" value="BIN Notification Settings" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-62" value="Account type&lt;br&gt;email&lt;br&gt;phone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-58" target="cnExMDElmopR4B2y_THm-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="-230" />
+              <mxPoint x="40" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-63" target="cnExMDElmopR4B2y_THm-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="-387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-63" value="UI mapper" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="-630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-67" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="-300" as="sourcePoint" />
+            <mxPoint x="200" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-70" value="Filter selections" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cnExMDElmopR4B2y_THm-67">
+          <mxGeometry x="-0.1533" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-71" value="Route Load Details" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-425" width="360" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cnExMDElmopR4B2y_THm-66" value="Loads" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cnExMDElmopR4B2y_THm-63" target="cnExMDElmopR4B2y_THm-58">
+          <mxGeometry x="-0.2911" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
