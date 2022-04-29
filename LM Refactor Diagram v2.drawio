@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T16:25:19.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1f7k3qw6GYqvKkgrroCU" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T16:26:02.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="o1Dc2Ypa6ftxXhbNrZVf" version="17.4.6" type="github">
   <diagram id="Wk8CYTFuplVzRF4KS6Ps" name="Page-1">
     <mxGraphModel dx="2946" dy="4910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="880" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -287,20 +287,22 @@
         <mxCell id="cnExMDElmopR4B2y_THm-95" value="Route details card" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1045" y="-2475" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cnExMDElmopR4B2y_THm-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cnExMDElmopR4B2y_THm-99" target="cnExMDElmopR4B2y_THm-101" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cnExMDElmopR4B2y_THm-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cnExMDElmopR4B2y_THm-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1231.875" y="-2630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-99" value="Delete/drop button" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1290" y="-2605" width="105" height="30" as="geometry" />
+          <mxGeometry x="-1290" y="-2615" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-101" value="&lt;b&gt;Carrier load for delete&lt;br&gt;Tendering for drop&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1303.75" y="-2680" width="132.5" height="55" as="geometry" />
+          <mxGeometry x="-1303.75" y="-2680" width="143.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-110" value="Broker id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cnExMDElmopR4B2y_THm-105" target="cnExMDElmopR4B2y_THm-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-105" value="Broker info card" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1255" y="-2755" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1255" y="-2765" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.152;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cnExMDElmopR4B2y_THm-107" target="cnExMDElmopR4B2y_THm-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -311,12 +313,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-107" value="&lt;b&gt;GraphQL&lt;br&gt;Broker profile&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1255" y="-2865" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1255" y="-2875" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-117" value="Tender id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cnExMDElmopR4B2y_THm-113" target="cnExMDElmopR4B2y_THm-116" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-995" y="-2785" />
+              <mxPoint x="-995" y="-2795" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -324,7 +326,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-113" value="Tender activity&lt;br&gt;and rate con card" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1045" y="-2695" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1045" y="-2705" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.393;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cnExMDElmopR4B2y_THm-116" target="cnExMDElmopR4B2y_THm-113" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -335,10 +337,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-116" value="&lt;b&gt;Tendering&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1125" y="-2835" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1125" y="-2845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-118" value="&lt;b&gt;Document&lt;br&gt;Management&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1045" y="-2905" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1045" y="-2915" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cnExMDElmopR4B2y_THm-49" value="Account&lt;br&gt;Management" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1735" y="-2925" width="120" height="60" as="geometry" />
